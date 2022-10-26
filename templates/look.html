@@ -1,0 +1,77 @@
+<!DOCTYPE html>    
+    <html>
+        <head>
+            <title>
+                deimadeeasy.com
+            </title>
+            
+            <link rel="stylesheet" href=".\bootstrap-5.0.1-dist\bootstrap-5.0.1-dist\css\bootstrap.min.css">
+            <script src=".\bootstrap-5.0.1-dist\bootstrap-5.0.1-dist\js\bootstrap.min.js"></script>
+            <div class="xyz">
+                <img src="https://images.shiksha.com/mediadata/images/1497436274phpHfRbf2.jpeg" height="300px" width="1500px">
+                <h2>Welcome to Deimadeeasy!</h2> 
+            </div>
+            <p>
+                <marquee>
+                    <h3>
+                        **An online forum to find old books,notes,questions papers and other study material for DEI students.
+                        <br>
+                        **This forum is built with an aim to make resourses available to everyone easily. 
+                    </h3>
+                </marquee>
+            </p>
+            <h4>
+                Select the categories to proceed further
+            </h4>
+        </head>
+<!-----------------------------------------------------------------This is a boundary---------------------------------------------------------->
+        <body>
+            <link rel="stylesheet" href="{{ STATIC_URL }}appearance.css">
+            <form>
+                Enter Your Name:<input type="text" id="name"><br><br>
+                Enter Your Mobile Number:<input type="text" id="phno"><br><br>
+                Enter Age:<input type="number" id="age"><br><br>
+
+                <span>
+                    <label id="firstlabel">Choose from the following:</label>
+                    <select name="Branch" placeholder="Branch">
+                        <option disabled selected>Select Branch</option>
+                        <option>Mechanical</option>
+                        <option>Electrical</option>
+                        <option>Civil</option>
+                        <option>Footwear Technology</option>
+                    </select>
+                
+                    <select name="Graduation Year">
+                        <option disabled selected>Select Semester</option>
+                        <option>First</option>
+                        <option>Second</option>
+                        <option>Third</option>
+                        <option>Fourth</option>
+                        <option>Fifth</option>
+                        <option>Sixth</option>
+                        <option>Seventh</option>
+                        <option>Eighth</option>
+                        <option>Ninth</option>
+                        <option>Tenth</option>
+                    </select>    
+                    
+                    <select name="Course">
+                        <option disabled selected>Select Course</option>
+                        <option>B.Tech</option>
+                        <option>M.Tech</option>
+                        <option>B.Voc</option>
+                        <option>Technical College</option>
+                    </select>
+
+                </span>
+                <br><br>
+                <button onclick="validateform()" formaction="C:\Users\subha\docs\Desktop\project\Web app\listing.html">Submit</button>
+                <!--<a href="C:\Users\subha\docs\Desktop\project\Web app\page2.html">Next</a>-->
+            </form>
+            <script type="text/javascript" src="new.js"></script>
+            <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>-->
+        </body>
+       
+    </html>

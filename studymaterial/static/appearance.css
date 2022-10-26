@@ -1,0 +1,21 @@
+#firstlabel{
+    color:rgb(2, 12, 24)
+}
+
+.xyz{
+    color: tomato;
+    background-color: rgb(0, 255, 0);
+    text-align: center;
+    font-style: italic;
+}
+
+#row {
+     display: inline;
+}
+
+#ctheader {
+    text-align: center;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
